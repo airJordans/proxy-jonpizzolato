@@ -1,0 +1,26 @@
+{
+  "name": "proxy-jonpizzolato",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-nomad/proxy-jonpizzolato.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/project-nomad/proxy-jonpizzolato/issues"
+  },
+  "homepage": "https://github.com/project-nomad/proxy-jonpizzolato#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
+    "http-proxy-middleware": "^0.18.0",
+    "node": "^10.4.1"
+  }
+}
