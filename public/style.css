@@ -1,0 +1,56 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+.container-zero {
+  max-width: 1080px !important;
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: auto !important;
+  box-sizing: border-box;
+  display: block;
+}
+.inner-container-one {
+  margin-left: -8px !important;
+  margin-right: -8px !important;
+}
+.inner-container-two {
+  width: 58.333333333333336% !important;
+  float: left !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  min-height: 1px !important;
+  position: relative !important;
+
+}
+.inner-container-three {
+  width: 41.66666666666667% !important;
+  float: left !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  min-height: 1px !important;
+  position: relative !important;
+}
+.details-modules {
+  width: 100% !important;
+}
+.right-container {
+  position: absolute;
+  top: 24px;
+  margin-left: 45px !important;
+  width: 376px !important;
+}
+
+#booking-spacer {
+  width: 41.66666666666667% !important;
+  float: left !important;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  min-height: 1px !important;
+  position: relative !important;
+}
