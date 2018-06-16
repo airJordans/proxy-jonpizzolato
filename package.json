@@ -1,26 +1,18 @@
 {
   "name": "proxy-jonpizzolato",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start-server": "nodemon server/server.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/project-nomad/proxy-jonpizzolato.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/project-nomad/proxy-jonpizzolato/issues"
-  },
-  "homepage": "https://github.com/project-nomad/proxy-jonpizzolato#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "express-http-proxy": "^1.2.0",
-    "http-proxy-middleware": "^0.18.0",
-    "node": "^10.4.1"
+    "aws-sdk": "^2.258.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0"
   }
 }
